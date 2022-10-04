@@ -1,13 +1,13 @@
 //alert("Oi, eu sou um alert!");
 //console.log ("Oi, eu estou no console.");
 //document.write("Aula de Pens. Comp.")
-let nome = "Guilherme Medeiros";
-let numero = 09;
-let turma = "H";
-let serie = 1;
-let tabuada = 2
+var = "Guilherme Medeiros";
+var numero = 09;
+var turma = "H";
+var serie = 1;
+var tabuada = 2
 
-function meChame(){
+function escreva(){
     document.write ("<h1>Tabuada do " + tabuada + "</h1>");
     document.write (tabuada + " x 1 = "  + (tabuada * 1) + "<br>");
     document.write (tabuada + " x 2 = "  + (tabuada * 2) + "<br>");
@@ -20,5 +20,14 @@ function meChame(){
     document.write (tabuada + " x 9 = "  + (tabuada * 9) + "<br>");
     document.write (tabuada + " x 10 = "  + (tabuada * 10) + "<br><br>");
     document.write("Feita por " + nome);
+    
+}
+
+//
+function escreva (){
+    for(var i = 1; i < 10; 1++) {
+        document.write(tabuada + " x " + " = "+(tabuada*i)+"<br>")
+    
+    }
     
 }
